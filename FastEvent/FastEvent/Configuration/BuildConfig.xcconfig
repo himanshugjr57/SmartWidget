@@ -1,0 +1,11 @@
+//
+//  BuildConfig.xcconfig
+//  FastEvent
+//
+//  Created by Apps4World on 9/25/23.
+//
+
+BASE_BUNDLE_IDENTIFIER = com.go.reminder
+PRODUCT_BUNDLE_IDENTIFIER = $(BASE_BUNDLE_IDENTIFIER)
+WIDGET_PRODUCT_BUNDLE_IDENTIFIER = $(BASE_BUNDLE_IDENTIFIER).widget
+APP_GROUP_IDENTIFIER = group.$(BASE_BUNDLE_IDENTIFIER).widget.shared
